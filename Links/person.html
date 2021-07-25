@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pearson</title>
+    <style>
+        body
+        {
+            background-color: #fff; padding:0 ; margin:0 ; font-family: arial , helvetica,fantasy;display: grid;
+        }
+        nav
+        {
+            background-color: #002a4d; text-align: right;
+            font-size: x-large; margin-top:0; color: #FFFFFF;padding:15px
+            ;
+        }
+
+      section
+        {
+           padding: 15px ; font-size: xx-large; text-align: center;
+           direction: rtl; margin-top: 100px; width:100% ;
+     }
+      form
+      {
+          width: 800px;
+          height: 400px;
+          display: flex;
+          flex-wrap: wrap;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center
+      }
+
+        aside
+     {
+          margin-right:0 ; margin-top: 0; width:120px ; height:120px; position: absolute; top:80px ; left : 30px
+     }
+        .image2
+        {
+            margin-bottom:40px ; margin-top:120px
+        }
+     input[type="text"] , input[type="password"]
+     {
+         width:200px ; height:10px ; padding:12px ;
+     }
+    input[type="submit"]
+    {
+      width:120px;  background-color: bisque; color:black ; padding:8px ; text-align: center;
+        margin-top:10px; font-size: large; margin-right: 35px;
+    }
+    fieldset
+    {
+        direction: ltr; width:550px ;
+    }
+    legend
+    {
+        text-align: right; font-size: x-large; border:3px solid #ddd
+    }
+
+    </style>
+    <script>
+        function go()
+        {
+            alert("Wait PLease");
+        }
+    </script>
+</head>
+<body>
+    <nav>
+        &nbsp;
+        بـيـرســــون
+
+    </nav>
+    <aside >
+        <img class="image2" src="https://mma.prnewswire.com/media/617186/Pearson_Logo.jpg?p=publish" alt="pearson" width="240"  height="100" align="left">
+    <img src="https://peg-public-hosting-13412593022.s3.amazonaws.com/peg-emblem-sm.png?AWSAccessKeyId=AKIAUQTW52LDKYKTAQBR&Expires=1615369709&Signature=rgIvNolASTSWk8hc8LVQDZdNqp4%3D"
+         alt="صورة الوزارة" name="وزارة التربية و التعليم">
+    </aside>
+    <section>
+
+        <form name="Log in" action="المنصة.html ">
+            <fieldset>
+                <legend> ادخل بياناتك </legend>
+
+            <input type="text" maxlength="9" >
+            <label> اسم المستخدم </label>
+            <br>
+
+            <input type="password" maxlength="10"> &nbsp;&nbsp;&nbsp;
+            <lable>  كلمة السر </lable> <br>
+            <input type="submit" value="تسجيل الدخول" onclick="go()">
+            </fieldset>
+        </form>
+
+    </section>
+</body>
+</html>
